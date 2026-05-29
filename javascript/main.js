@@ -1,0 +1,15 @@
+import { navBar } from "./navbar.js";
+import { countLikes } from "./likes.js";
+import { showDetails } from "./prodDescription.js";
+import { changeAvailability } from "./availability.js";
+
+
+document.addEventListener("DOMContentLoaded",() =>{
+    navBar();
+    countLikes();
+    showDetails();
+    changeAvailability();
+}) ;
+
+  
+//se manda a llamar las funciones 
